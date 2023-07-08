@@ -44,9 +44,9 @@ nav a{
 /* header */
 .header{
     background-color:#FFF8F3 ;
-    background-image: url('./images/header_bg.png');
+    background-image: url('./images/header_bg.png'), url('./images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right,bottom left;
 }
 
 .banner{
@@ -138,11 +138,12 @@ main section{
    color:#757575;
    height: 200px;
 }
+/* resume */
 
 .resume-column{
 
     font-size: 30px;
-    font-weight:700 ;
+    font-weight:700;
 
 }
 
